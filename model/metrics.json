@@ -1,0 +1,62 @@
+{
+  "trained_at": "2026-11-10 16:50:24",
+  "dataset_file": "news.csv",
+  "total_rows": 500,
+  "train_rows": 400,
+  "test_rows": 100,
+  "class_counts": {
+    "FAKE": 250,
+    "REAL": 250
+  },
+  "algorithm": "Logistic Regression",
+  "vectorizer": "TF-IDF (max_features=5000, ngram_range=(1,2), min_df=2)",
+  "positive_class": "REAL",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "brier_score": 0.0302,
+  "cv_accuracy_mean": 1.0,
+  "cv_accuracy_std": 0.0,
+  "confusion_matrix": {
+    "labels": [
+      "FAKE",
+      "REAL"
+    ],
+    "matrix": [
+      [
+        50,
+        0
+      ],
+      [
+        0,
+        50
+      ]
+    ]
+  },
+  "top_words_real": [
+    "said",
+    "website",
+    "month",
+    "officials",
+    "two",
+    "expected",
+    "official website",
+    "statement",
+    "data",
+    "several"
+  ],
+  "top_words_fake": [
+    "people",
+    "real",
+    "share",
+    "one",
+    "truth",
+    "media",
+    "everything",
+    "say",
+    "secret",
+    "us"
+  ],
+  "sklearn_version": "1.9.1"
+}
